@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,27 @@
 		11063F641EC0EECC0033EE6D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F631EC0EECC0033EE6D /* MainViewController.swift */; };
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		303104362A1CB339009FDF37 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303104352A1CB339009FDF37 /* Onboarding1.swift */; };
+		30582FBE2A1E272B00163D0C /* ibd.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FB52A1E272A00163D0C /* ibd.png */; };
+		30582FBF2A1E272B00163D0C /* ibdimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FB62A1E272B00163D0C /* ibdimg.png */; };
+		30582FC02A1E272B00163D0C /* ibdtxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FB72A1E272B00163D0C /* ibdtxt.png */; };
+		30582FC12A1E272B00163D0C /* gtktxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FB82A1E272B00163D0C /* gtktxt.png */; };
+		30582FC22A1E272B00163D0C /* grr.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FB92A1E272B00163D0C /* grr.png */; };
+		30582FC32A1E272B00163D0C /* grtxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FBA2A1E272B00163D0C /* grtxt.png */; };
+		30582FC42A1E272B00163D0C /* gtk.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FBB2A1E272B00163D0C /* gtk.png */; };
+		30582FC52A1E272B00163D0C /* gtkimg.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FBC2A1E272B00163D0C /* gtkimg.png */; };
+		30582FCA2A1E278C00163D0C /* WoofWonder.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FC92A1E278C00163D0C /* WoofWonder.png */; };
+		30582FCC2A1E283B00163D0C /* multi3.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FCB2A1E283B00163D0C /* multi3.png */; };
+		30582FCE2A1E284300163D0C /* multi1.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FCD2A1E284300163D0C /* multi1.png */; };
+		30582FD02A1E284700163D0C /* multi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FCF2A1E284700163D0C /* multi2.png */; };
+		30582FD22A1E657D00163D0C /* grimgg.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FD12A1E657D00163D0C /* grimgg.png */; };
+		30582FD42A1E667100163D0C /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FD32A1E667100163D0C /* main.png */; };
+		30582FD62A1E69B200163D0C /* mainn.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FD52A1E69B200163D0C /* mainn.png */; };
+		30582FD82A1E6D3100163D0C /* onefinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FD72A1E6D3100163D0C /* onefinger.png */; };
+		30582FDA2A1E709500163D0C /* twofinger.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FD92A1E709500163D0C /* twofinger.png */; };
+		30582FDD2A1E718E00163D0C /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FDB2A1E718E00163D0C /* photos.png */; };
+		30582FDE2A1E718E00163D0C /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 30582FDC2A1E718E00163D0C /* camera.png */; };
+		3061CA252A1DD0AA00855F35 /* DogBreed.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3061CA242A1DD0AA00855F35 /* DogBreed.mlmodel */; };
 		EB6D4EB126BA58FC00DCF755 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EB6D4EAF26BA58FC00DCF755 /* MobileNet.mlmodel */; };
 		EB6D4EB526BA5A0000DCF755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D4EB326BA5A0000DCF755 /* LaunchScreen.storyboard */; };
 		EB6D4EBA26BA5A2F00DCF755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6D4EB826BA5A2F00DCF755 /* Main.storyboard */; };
@@ -21,15 +42,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		11063F5E1EC0EECC0033EE6D /* Vision + CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vision + CoreML.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11063F5E1EC0EECC0033EE6D /* WoofWonder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoofWonder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11063F611EC0EECC0033EE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11063F631EC0EECC0033EE6D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		11063F681EC0EECC0033EE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11063F6D1EC0EECC0033EE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
-		7A862B3053580E92D52AA6E3 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		83D09BCE84BD8F0B0100E8B3 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		303104352A1CB339009FDF37 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
+		30582FB52A1E272A00163D0C /* ibd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ibd.png; path = "../../WoofWonder Asset/ibd.png"; sourceTree = "<group>"; };
+		30582FB62A1E272B00163D0C /* ibdimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ibdimg.png; path = "../../WoofWonder Asset/ibdimg.png"; sourceTree = "<group>"; };
+		30582FB72A1E272B00163D0C /* ibdtxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ibdtxt.png; path = "../../WoofWonder Asset/ibdtxt.png"; sourceTree = "<group>"; };
+		30582FB82A1E272B00163D0C /* gtktxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gtktxt.png; path = "../../WoofWonder Asset/gtktxt.png"; sourceTree = "<group>"; };
+		30582FB92A1E272B00163D0C /* grr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grr.png; sourceTree = "<group>"; };
+		30582FBA2A1E272B00163D0C /* grtxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grtxt.png; path = "../../WoofWonder Asset/grtxt.png"; sourceTree = "<group>"; };
+		30582FBB2A1E272B00163D0C /* gtk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gtk.png; path = "../../WoofWonder Asset/gtk.png"; sourceTree = "<group>"; };
+		30582FBC2A1E272B00163D0C /* gtkimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gtkimg.png; path = "../../WoofWonder Asset/gtkimg.png"; sourceTree = "<group>"; };
+		30582FC92A1E278C00163D0C /* WoofWonder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WoofWonder.png; path = "../../WoofWonder Asset/WoofWonder.png"; sourceTree = "<group>"; };
+		30582FCB2A1E283B00163D0C /* multi3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multi3.png; path = "../../WoofWonder Asset/multi3.png"; sourceTree = "<group>"; };
+		30582FCD2A1E284300163D0C /* multi1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multi1.png; path = "../../WoofWonder Asset/multi1.png"; sourceTree = "<group>"; };
+		30582FCF2A1E284700163D0C /* multi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = multi2.png; path = "../../WoofWonder Asset/multi2.png"; sourceTree = "<group>"; };
+		30582FD12A1E657D00163D0C /* grimgg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grimgg.png; sourceTree = "<group>"; };
+		30582FD32A1E667100163D0C /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = main.png; path = "../../WoofWonder Asset/main.png"; sourceTree = "<group>"; };
+		30582FD52A1E69B200163D0C /* mainn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mainn.png; path = "../../WoofWonder Asset/mainn.png"; sourceTree = "<group>"; };
+		30582FD72A1E6D3100163D0C /* onefinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onefinger.png; sourceTree = "<group>"; };
+		30582FD92A1E709500163D0C /* twofinger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twofinger.png; sourceTree = "<group>"; };
+		30582FDB2A1E718E00163D0C /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		30582FDC2A1E718E00163D0C /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		3061CA242A1DD0AA00855F35 /* DogBreed.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DogBreed.mlmodel; path = ../../../../../Documents/DogBreed.mlmodel; sourceTree = "<group>"; };
+		7A862B3053580E92D52AA6E3 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 		EB6D4EAF26BA58FC00DCF755 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		EB6D4EB426BA5A0000DCF755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB6D4EB926BA5A2F00DCF755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,19 +90,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07863CCC04960BE23B5F2D99 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-				83D09BCE84BD8F0B0100E8B3 /* LICENSE.txt */,
-			);
-			name = LICENSE;
-			path = LICENSE;
-			sourceTree = "<group>";
-		};
 		11063F551EC0EECC0033EE6D = {
 			isa = PBXGroup;
 			children = (
-				C858E5CC1ECA99CC006C5CAA /* README.md */,
 				C82A1C951F1809F5005996F6 /* Main View */,
 				EBB87B3126C2EC2300AB49D8 /* Image Predictor */,
 				EB6D4EAD26BA56E500DCF755 /* Models */,
@@ -70,14 +100,13 @@
 				11063F601EC0EECC0033EE6D /* App */,
 				11063F5F1EC0EECC0033EE6D /* Products */,
 				629F74E51B2056AB2085C918 /* Configuration */,
-				07863CCC04960BE23B5F2D99 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
 		11063F5F1EC0EECC0033EE6D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				11063F5E1EC0EECC0033EE6D /* Vision + CoreML.app */,
+				11063F5E1EC0EECC0033EE6D /* WoofWonder.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +135,27 @@
 			children = (
 				11063F631EC0EECC0033EE6D /* MainViewController.swift */,
 				EB9D7ECB26C2D5F800039949 /* MainViewController+CameraPicker.swift */,
+				303104352A1CB339009FDF37 /* Onboarding1.swift */,
 				EB9D7EC926C2D39400039949 /* MainViewController+PhotoPicker.swift */,
+				30582FB92A1E272B00163D0C /* grr.png */,
+				30582FBA2A1E272B00163D0C /* grtxt.png */,
+				30582FC92A1E278C00163D0C /* WoofWonder.png */,
+				30582FD32A1E667100163D0C /* main.png */,
+				30582FBB2A1E272B00163D0C /* gtk.png */,
+				30582FCD2A1E284300163D0C /* multi1.png */,
+				30582FD52A1E69B200163D0C /* mainn.png */,
+				30582FDC2A1E718E00163D0C /* camera.png */,
+				30582FDB2A1E718E00163D0C /* photos.png */,
+				30582FD12A1E657D00163D0C /* grimgg.png */,
+				30582FCB2A1E283B00163D0C /* multi3.png */,
+				30582FCF2A1E284700163D0C /* multi2.png */,
+				30582FBC2A1E272B00163D0C /* gtkimg.png */,
+				30582FD92A1E709500163D0C /* twofinger.png */,
+				30582FB82A1E272B00163D0C /* gtktxt.png */,
+				30582FB52A1E272A00163D0C /* ibd.png */,
+				30582FD72A1E6D3100163D0C /* onefinger.png */,
+				30582FB62A1E272B00163D0C /* ibdimg.png */,
+				30582FB72A1E272B00163D0C /* ibdtxt.png */,
 				EB6D4EB826BA5A2F00DCF755 /* Main.storyboard */,
 			);
 			path = "Main View";
@@ -115,6 +164,7 @@
 		EB6D4EAD26BA56E500DCF755 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3061CA242A1DD0AA00855F35 /* DogBreed.mlmodel */,
 				EB6D4EAF26BA58FC00DCF755 /* MobileNet.mlmodel */,
 			);
 			path = Models;
@@ -140,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		11063F5D1EC0EECC0033EE6D /* Vision + CoreML */ = {
+		11063F5D1EC0EECC0033EE6D /* WoofWonder */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 11063F701EC0EECC0033EE6D /* Build configuration list for PBXNativeTarget "Vision + CoreML" */;
+			buildConfigurationList = 11063F701EC0EECC0033EE6D /* Build configuration list for PBXNativeTarget "WoofWonder" */;
 			buildPhases = (
 				11063F5A1EC0EECC0033EE6D /* Sources */,
 				11063F5B1EC0EECC0033EE6D /* Frameworks */,
@@ -152,9 +202,9 @@
 			);
 			dependencies = (
 			);
-			name = "Vision + CoreML";
+			name = WoofWonder;
 			productName = "Vision+ML Example";
-			productReference = 11063F5E1EC0EECC0033EE6D /* Vision + CoreML.app */;
+			productReference = 11063F5E1EC0EECC0033EE6D /* WoofWonder.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,8 +213,9 @@
 		11063F561EC0EECC0033EE6D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					11063F5D1EC0EECC0033EE6D = {
@@ -174,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 11063F591EC0EECC0033EE6D /* Build configuration list for PBXProject "Vision+Core-ML" */;
+			buildConfigurationList = 11063F591EC0EECC0033EE6D /* Build configuration list for PBXProject "WoofWonder" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -187,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				11063F5D1EC0EECC0033EE6D /* Vision + CoreML */,
+				11063F5D1EC0EECC0033EE6D /* WoofWonder */,
 			);
 		};
 /* End PBXProject section */
@@ -197,7 +248,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30582FDE2A1E718E00163D0C /* camera.png in Resources */,
+				30582FDD2A1E718E00163D0C /* photos.png in Resources */,
+				30582FD22A1E657D00163D0C /* grimgg.png in Resources */,
+				30582FC42A1E272B00163D0C /* gtk.png in Resources */,
+				30582FC02A1E272B00163D0C /* ibdtxt.png in Resources */,
 				EB6D4EBA26BA5A2F00DCF755 /* Main.storyboard in Resources */,
+				30582FD02A1E284700163D0C /* multi2.png in Resources */,
+				30582FCA2A1E278C00163D0C /* WoofWonder.png in Resources */,
+				30582FC12A1E272B00163D0C /* gtktxt.png in Resources */,
+				30582FC32A1E272B00163D0C /* grtxt.png in Resources */,
+				30582FBF2A1E272B00163D0C /* ibdimg.png in Resources */,
+				30582FD62A1E69B200163D0C /* mainn.png in Resources */,
+				30582FBE2A1E272B00163D0C /* ibd.png in Resources */,
+				30582FCE2A1E284300163D0C /* multi1.png in Resources */,
+				30582FD42A1E667100163D0C /* main.png in Resources */,
+				30582FCC2A1E283B00163D0C /* multi3.png in Resources */,
+				30582FC52A1E272B00163D0C /* gtkimg.png in Resources */,
+				30582FC22A1E272B00163D0C /* grr.png in Resources */,
+				30582FD82A1E6D3100163D0C /* onefinger.png in Resources */,
+				30582FDA2A1E709500163D0C /* twofinger.png in Resources */,
 				EB6D4EB526BA5A0000DCF755 /* LaunchScreen.storyboard in Resources */,
 				11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */,
 			);
@@ -212,6 +282,8 @@
 			files = (
 				EB6D4EB126BA58FC00DCF755 /* MobileNet.mlmodel in Sources */,
 				EBE769EA26CC7DDD002B6CF0 /* VNClassificationObservation+confidenceString.swift in Sources */,
+				3061CA252A1DD0AA00855F35 /* DogBreed.mlmodel in Sources */,
+				303104362A1CB339009FDF37 /* Onboarding1.swift in Sources */,
 				EB9D7ECA26C2D39400039949 /* MainViewController+PhotoPicker.swift in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				11063F641EC0EECC0033EE6D /* MainViewController.swift in Sources */,
@@ -354,7 +426,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -368,11 +441,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JZUG2CRW5M;
 				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Vision-Core-ML${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WoofWonder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,11 +463,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JZUG2CRW5M;
 				INFOPLIST_FILE = "$(SRCROOT)/App/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Vision-Core-ML${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = WoofWonder;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		11063F591EC0EECC0033EE6D /* Build configuration list for PBXProject "Vision+Core-ML" */ = {
+		11063F591EC0EECC0033EE6D /* Build configuration list for PBXProject "WoofWonder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11063F6E1EC0EECC0033EE6D /* Debug */,
@@ -410,7 +489,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		11063F701EC0EECC0033EE6D /* Build configuration list for PBXNativeTarget "Vision + CoreML" */ = {
+		11063F701EC0EECC0033EE6D /* Build configuration list for PBXNativeTarget "WoofWonder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11063F711EC0EECC0033EE6D /* Debug */,

@@ -14,7 +14,7 @@ class MainViewController: UIViewController {
     let imagePredictor = ImagePredictor()
 
     /// The largest number of predictions the main view controller displays the user.
-    let predictionsToShow = 2
+    let predictionsToShow = 1
 
     // MARK: Main storyboard outlets
     @IBOutlet weak var startupPrompts: UIStackView!
